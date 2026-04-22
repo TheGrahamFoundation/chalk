@@ -1,0 +1,27 @@
+{
+  "name": "@davidlabs/chalk",
+  "version": "0.1.0",
+  "description": "Chalk — The Drawing Library for Sophia. Interactive mathematical visualizations powered by JSXGraph.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["math", "visualization", "geometry", "education", "jsxgraph", "chalk", "sophia", "davidlabs"],
+  "author": "David Labs",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "jsxgraph": "^1.12.2"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "typescript": "^5"
+  }
+}
