@@ -1,27 +1,18 @@
 {
-  "name": "@davidlabs/chalk",
-  "version": "0.1.0",
-  "description": "Chalk — The Drawing Library for Sophia. Interactive mathematical visualizations powered by JSXGraph.",
+  "name": "@thegrahamfoundation/chalk",
+  "version": "0.0.1",
+  "description": "A structured mathematical visual language for turning machine-generated specifications into interactive geometry, plots and diagrams.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": ["dist"],
-  "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch"
-  },
-  "keywords": ["math", "visualization", "geometry", "education", "jsxgraph", "chalk", "sophia", "davidlabs"],
-  "author": "David Labs",
-  "license": "UNLICENSED",
-  "private": true,
-  "dependencies": {
-    "jsxgraph": "^1.12.2"
-  },
-  "peerDependencies": {
-    "react": ">=18",
-    "react-dom": ">=18"
-  },
-  "devDependencies": {
-    "@types/react": "^19",
-    "typescript": "^5"
-  }
+  "scripts": {"build":"tsc","dev":"tsc --watch"},
+  "keywords": ["math", "visualization", "geometry", "education", "jsxgraph", "chalk", "structured-graphics"],
+  "author": "The Graham Foundation",
+  "license": "MIT",
+  "private": false,
+  "repository": {"type":"git","url":"https://github.com/TheGrahamFoundation/chalk.git"},
+  "homepage": "https://github.com/TheGrahamFoundation/chalk",
+  "dependencies": {"jsxgraph":"^1.12.2"},
+  "peerDependencies": {"react":">=18","react-dom":">=18"},
+  "devDependencies": {"@types/react":"^19","typescript":"^5"}
 }
